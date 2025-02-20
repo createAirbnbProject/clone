@@ -63,5 +63,42 @@
         "id" : "13",
         "name":"Islands",
         "img" : "https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"
+    },{
+        "id" : "1",
+        "name":"Amazing Pools",
+        "img" : "https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+    },
+    {
+        "id" : "2",
+        "name":"Icons",
+        "img" : "https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+    },
+    {
+        "id" : "3",
+        "name":"BeachFront",
+        "img" : "https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+    },
+    {
+        "id" : "4",
+        "name":"OMG!",
+        "img" : "https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+    },
+    {
+        "id" : "5",
+        "name":"Top Cities",
+        "img" : "https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg"
+    },
+    {
+        "id" : "6",
+        "name":"Tiny Homes",
+        "img" : "https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg"
+    },
+    {
+        "id" : "7",
+        "name":"Amazing views",
+        "img" : "https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
     }
 ]
+
+
+

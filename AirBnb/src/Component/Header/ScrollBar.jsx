@@ -30,7 +30,7 @@ const ScrollBar = () => {
 
   return (
     <div className="scroll-bar-container">
-      <div style={{marginTop:"-20px"}}>
+      <div style={{marginTop:"-5px",marginLeft:"10px"}}>
       <button
         onClick={scrollBackward}
         className={"scroll-button"}
@@ -48,12 +48,11 @@ const ScrollBar = () => {
           </div>
         ))}
       </div>
-
       <button
         onClick={scrollForward}
         className="scroll-button"
         disabled={startIndex + itemsPerPage>= items.length}
-        style={{marginTop:"-20px"}}
+        style={{marginTop:"-5px"}}
       >
         ▶
       </button>

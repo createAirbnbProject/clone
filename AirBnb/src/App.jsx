@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
 import ScrollBar from './Component/Header/ScrollBar'
+import SearchBar from './Component/Header/SearchBar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <><div>
-        <ScrollBar/>
-      </div></>
+    <>
+      <SearchBar />
+      <ScrollBar />
+    </>
   )
 }
 

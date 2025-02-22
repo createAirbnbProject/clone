@@ -12,6 +12,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 img {
@@ -36,11 +37,13 @@ img {
 
 .hotelDetails {
   padding: 4px;
+  margin-left: 20px;
 }
 
 .hotelLocation {
   font-size: 14px;
   color: grey;
+  margin-top: 5px;
 }
 
 .hotelDate {
@@ -92,6 +95,7 @@ img {
 .left_btn {
   left: 10px;
   font-size: 10px;
+  margin-left: -5px;
 }
 
 .right_btn {

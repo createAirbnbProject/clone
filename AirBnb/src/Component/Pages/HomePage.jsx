@@ -12,7 +12,6 @@ const images = [
 const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-  const [direction, setDirection] = useState("next");
 
   const handleNext = () => {
     if (currentIndex < images.length - 1) {
@@ -73,7 +72,7 @@ const HomePage = () => {
               <div style={{ marginTop: "3px" }}>
                 <FaStar />
               </div>
-              <div style={{ marginRight: "8px" }}>4.9</div>
+              <div>4.9</div>
             </div>
           </div>
           <div>

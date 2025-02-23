@@ -1,0 +1,142 @@
+[
+    {
+        "hotelName": "The Taj West End",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1106434818541152427/original/4d760dda-4343-4334-b646-7c935a9c73f0.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI4NDM3MTY5MTc0ODUwNzYxMQ%3D%3D/original/952bdf60-5b85-4785-bebd-8692650008f1.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/4147db64-ed9e-4330-a253-195725f71e0a.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/9860e954-4612-4e79-9882-33d650d6483f.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/3cfa7d65-dedd-4956-872c-e8a5696c5f27.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.8
+    },
+    {
+        "hotelName": "The Oberoi Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/fb72d828-77c5-4985-b87b-f9ba4bb78483.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/354fed6d-0400-4a9e-9674-b2c3697a9047.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/4dbc0349-c4b7-48cc-9345-3d272f264866.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/0b0092c0-fe44-41fd-97b2-52dd50b18237.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/adb74981-5d31-487a-8be1-d3cff1c2baab.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.7
+    },
+    {
+        "hotelName": "The Leela Mumbai",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 37500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-37898787/original/18a2643f-6e70-47c4-87c5-a91cd9f9ff85.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/5d5939af-23d0-4ef4-b19b-d0e9c2ee9999.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-37898787/original/bbee1a32-43de-4807-a269-8fda217e13dc.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.9
+    },
+    {
+        "hotelName": "Hyatt Centric MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 25000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/458be275-af05-4cd6-ae4c-48dbfc0b5d5d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/65ebbfbb-0661-4ac7-a458-02e97bb6c76b.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/be7970f8-c628-4fa1-94d3-b01a489d1612.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/458be275-af05-4cd6-ae4c-48dbfc0b5d5d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/dd8e0fca-c14f-48ad-b049-8344862f22a1.jpg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.5
+    },
+    {
+        "hotelName": "ITC Maratha",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 30000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/a6e9ab77-4626-4cc7-bd57-bfbf1dba49b4.jpg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/a56c1197-e0ee-4b49-b8f2-29688b809744.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/747b64cb-7386-4b77-bb61-8b80191ab4dc.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-44949215/original/c721c321-026c-45c9-92c3-262ca7e5b04c.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/8a55c9dd-2dee-4435-b076-01f2576bfad8.jpg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.6
+    },
+    {
+        "hotelName": "Shangri-La Hotel",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 35000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/02f4acaa-2ade-4194-ae40-9a2ebf3be89b.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/08276d3f-1962-4b94-bd46-f418b148acb5.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/72274e33-be1f-4d5d-9ecc-7d5f826a8d51.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/46d036fe-22d9-43e9-a31e-2fda07f6a324.jpeg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/4a8cadc1-2bc4-46b6-bd43-b53969694e84.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.7
+    },
+    {
+        "hotelName": "Radisson Blu",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 18000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/bd9b2efd-0046-4b2e-ac7e-de59f6458521.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/e1387ceb-abdb-4fcb-9236-bd90da2e8c55.jpg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExNzA4MDkwNTgxODYzNjY5Mg%3D%3D/original/5831fbfe-0cbc-4959-a3d2-0f423b731e73.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjExNTA1NjQ0NjU5NDYwNA%3D%3D/original/9cbd5c39-9f29-4e0f-815a-a015c26d5647.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.5
+    },
+    {
+        "hotelName": "The Grand New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 32500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/ff34926a-564d-44d0-a23a-3c3f78dd601f.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/2ea2e6e4-cfc3-4b9b-901e-fe8686cd3215.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-44623481/original/cb28e408-714b-4142-afac-190d8a6416fe.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/d434bc1c-40fd-4b82-8ed4-51cd77cc8231.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-44623481/original/c0069a5e-c5c6-42c3-ade4-9b9f40bb9768.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.7
+    },
+    {
+        "hotelName": "The Park Chennai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/5202fc72-5e7e-49e3-af0e-e2b5e9084a0a.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/658be922-b210-4685-a6eb-aed2d31321d9.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/94ca8385-9e58-46c9-85d9-3e7a516f69cc.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/8cf73c89-1d2e-49e2-92b3-b0c8abcc2b0e.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/054fee7e-2836-4a6c-aa26-86c78723d9bf.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.4
+    },
+    {
+        "hotelName": "Le Meridien Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 20000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/0973118e-332e-4f01-a6a2-fd91795d2228.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/a160ceff-61c4-461c-bdfe-b9e7548e6926.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/920cf384-b2ca-44b5-9d44-50362b2b8b9d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/b4f3801b-fa55-4291-b352-83a117e26595.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/55676ea9-13fe-4449-8edf-fb12bf35ed96.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.6
+    }
+]

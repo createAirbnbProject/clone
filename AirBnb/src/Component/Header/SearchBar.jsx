@@ -108,6 +108,7 @@ const SearchBar = () => {
 
   return (
     <>
+      <div className="search_box_main_container">
       <div className="search_box">
         {/* Destination Selection */}
         <div
@@ -214,6 +215,7 @@ const SearchBar = () => {
           ))}
         </div>
       )}
+      </div>
     </>
   );
 };

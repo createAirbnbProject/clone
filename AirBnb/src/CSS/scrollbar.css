@@ -4,7 +4,7 @@
   align-items: center;
   background-color: white;
   justify-content: space-between; 
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .scroll-bar-child{
@@ -13,17 +13,12 @@
   justify-content: center;
 }
 
-.scroll-wrapper {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
 .scroll-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: white;
   cursor: pointer;
@@ -32,22 +27,23 @@
   transition: opacity 0.5s ease-in-out, background-color 0.3s;
 }
 
-.hidden {
+.hidden-button {
   opacity: 0;
-  pointer-events: none;
-}
-
-.left_btn1 {
-  margin-left: 20px;
+  pointer-events: none; /* Prevents clicking when hidden */
+  transition: opacity 0.3s ease-in-out;
 }
 
 .scroll-container {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   scroll-behavior: smooth;
   margin: 10px 0px;
   width: 700px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
 }
 
 .scroll-item {
@@ -70,14 +66,6 @@
 .item-name {
   font-size: 13px;
   margin-top: 4px;
-}
-
-.scroll-container::-webkit-scrollbar {
-  display: none;
-}
-.scroll-container {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .toggle-container {

@@ -1,20 +1,21 @@
 * {
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
   margin: 0;
 }
 
 .search_box {
   width: 900px;
   margin: auto;
+  border: 1px solid gray;
   border-radius: 50px;
-  background-color: white;
-  box-shadow: 0 0 3px rgb(100, 100, 100);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
   gap: 5px;
+}
+
+.search_box:focus-within{
+  background-color: #ebebeb;
 }
 
 .searchBar_items {
@@ -26,12 +27,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
+  gap: 2px;
+  cursor: pointer;
 }
 
 .searchBar_items:focus-within {
-  background-color: rgb(250, 250, 250);
-  box-shadow: 0 0 2px black;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -43,19 +46,48 @@
   width: 100%;
 }
 
-/* Popup Styles */
+.divider{
+  border-left: 1px solid grey;
+  height: 30px;
+}
+
+/* Common Popup Styles */
 .popup {
   position: absolute;
   background: white;
   padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+/* Destination Popup */
+.destination-popup {
   min-width: 280px;
   max-height: 350px;
   overflow-y: auto;
-  z-index: 2;
+  left: 0;
+  top: 110%; /* Adjusted positioning */
 }
 
+/* Guest Popup */
+.guest-popup {
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 110%;
+}
+
+/* Popup Title */
+.popup-title {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Destination Items */
 .popup-item {
   display: flex;
   align-items: center;
@@ -74,18 +106,40 @@
   background-color: #e6e6e6;
 }
 
-.destination-icon {
-  font-size: 24px;
+/* Guest Row */
+.guest-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
 }
 
-.destination-details h3 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
+.guest-row:last-child {
+  border-bottom: none;
 }
 
-.destination-details p {
-  margin: 2px 0 0;
-  font-size: 14px;
-  color: #666;
+/* Guest Controls */
+.guest-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.guest-controls button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.guest-controls button:hover {
+  background-color: #d9d9d9;
+  transform: scale(1.1);
 }

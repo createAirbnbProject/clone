@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "hotelName": "The Taj West End",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -14,6 +15,7 @@
         "rating": 4.8
     },
     {
+        "id":2,
         "hotelName": "The Oberoi Bangalore",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -28,6 +30,7 @@
         "rating": 4.7
     },
     {
+        "id":3,
         "hotelName": "The Leela Mumbai",
         "city": "Mumbai",
         "state": "Maharashtra",
@@ -42,6 +45,7 @@
         "rating": 4.9
     },
     {
+        "id":4,
         "hotelName": "Hyatt Centric MG Road",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -56,6 +60,7 @@
         "rating": 4.5
     },
     {
+        "id":5,
         "hotelName": "ITC Maratha",
         "city": "Mumbai",
         "state": "Maharashtra",
@@ -70,6 +75,7 @@
         "rating": 4.6
     },
     {
+        "id":6,
         "hotelName": "Shangri-La Hotel",
         "city": "New Delhi",
         "state": "Delhi",
@@ -84,6 +90,7 @@
         "rating": 4.7
     },
     {
+        "id":7,
         "hotelName": "Radisson Blu",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -98,6 +105,7 @@
         "rating": 4.5
     },
     {
+        "id":8,
         "hotelName": "The Grand New Delhi",
         "city": "New Delhi",
         "state": "Delhi",
@@ -112,6 +120,7 @@
         "rating": 4.7
     },
     {
+        "id":9,
         "hotelName": "The Park Chennai",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -126,6 +135,7 @@
         "rating": 4.4
     },
     {
+        "id":10,
         "hotelName": "Le Meridien Kochi",
         "city": "Kochi",
         "state": "Kerala",

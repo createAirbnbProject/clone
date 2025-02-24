@@ -10,7 +10,7 @@ const SearchBar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [isGuestPopupOpen, setIsGuestPopupOpen] = useState(false);
-  const [guests, setGuests] = useState({ adults: 0, children: 0, infants: 0, pets: 0 });
+  const [guests, setGuests] = useState({adults: 0, children: 0, infants: 0, pets: 0 });
 
   const destinations = [
     { name: "Puducherry, Puducherry", description: "Popular beach destination", icon: "🏖️" },
@@ -107,6 +107,7 @@ const SearchBar = () => {
 
   return (
     <>
+      <div className="search_box_main_container">
       <div className="search_box">
         {/* Destination Selection */}
         <div
@@ -214,6 +215,7 @@ const SearchBar = () => {
           ))}
         </div>
       )}
+      </div>
     </>
   );
 };

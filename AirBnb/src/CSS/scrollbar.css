@@ -1,10 +1,16 @@
 .scroll-bar-container {
-  margin-top: 20px;
+  margin-top: 10px; 
   display: flex;
   align-items: center;
   background-color: white;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  justify-content: space-between; 
+  margin-left: 20px;
+}
+
+.scroll-bar-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .scroll-wrapper {
@@ -32,7 +38,7 @@
 }
 
 .left_btn1 {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .scroll-container {
@@ -49,9 +55,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 100px;
+  min-width: 80px;
   transition: transform 0.5s ease-in-out;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .scroll-item img {
@@ -71,4 +78,86 @@
 .scroll-container {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgba(184, 180, 180, 0.637);
+  text-align: center;
+  border-radius: 10px;
+  color: #333;
+  font-weight: 700;
+  padding: 15px;
+  margin-right: 80px;
+}
+
+.toggle-container:hover {
+  background-color: rgba(146, 142, 142, 0.103);
+}
+
+.toggle-label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: 0.3s;
+  display: inline-block;
+
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+.toggle-input:checked + .toggle-slider {
+  background-color: black;
+}
+
+.toggle-input:checked + .toggle-slider::before {
+  transform: translateX(20px);
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  color: #333;
+  border: 2px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.filter-button:hover {
+  background: #f3f3f3;
+}
+
+.filter-icon {
+  font-size: 18px;
 }

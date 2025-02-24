@@ -3,6 +3,7 @@ import "../../CSS/Home.css";
 import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
 import HOTELDETAILS from "../../Constant/hotelDetails.json";
 import Heart from "react-heart";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const [indexMap, setIndexMap] = useState({});
@@ -49,11 +50,13 @@ const HomePage = () => {
               onMouseLeave={() => setIsHovered(null)}
             >
               <div className="imageContainer">
-                <img
-                  src={hotel.images[currentIndex]}
-                  alt="Travel Destination"
-                  className="image_photo"
-                />
+                <Link to={`/hotelDetail/${hotel.id}`} target="_blank">
+                  <img
+                    src={hotel.images[currentIndex]}
+                    alt="Travel Destination"
+                    className="image_photo"
+                  />
+                </Link>
                 <div className="heart">
                   <div className="heartStyle">
                     <Heart
@@ -65,8 +68,8 @@ const HomePage = () => {
                       isActive={active[hotelIndex] || false}
                       onClick={() => handleHeart(hotelIndex)}
                       style={{
-                        fill: active[hotelIndex] ? "red" : "white", 
-                        stroke: active[hotelIndex] ? "red" : "#333", 
+                        fill: active[hotelIndex] ? "red" : "white",
+                        stroke: active[hotelIndex] ? "red" : "#333",
                         // strokeWidth: "1px",
                       }}
                     />
@@ -121,7 +124,7 @@ const HomePage = () => {
                 <div>
                   <div className="hotelLocation">{hotel.hotelName}</div>
                   <div className="hotelDate">7-12 March</div>
-                  <div className="hotelPrice">${hotel.price}</div>
+                  <div className="hotelPrice">₹{hotel.price}</div>
                 </div>
               </div>
             </div>

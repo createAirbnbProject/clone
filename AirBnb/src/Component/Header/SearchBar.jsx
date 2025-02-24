@@ -8,8 +8,9 @@ const SearchBar = () => {
   const guestPopupRef = useRef(null);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [inputValue, setInputValue] = useState("");
   const [isGuestPopupOpen, setIsGuestPopupOpen] = useState(false);
+
+  const [inputValue, setInputValue] = useState("");
   const [guests, setGuests] = useState({ adults: 0, children: 0, infants: 0, pets: 0 });
 
   const destinations = [
@@ -163,7 +164,6 @@ const SearchBar = () => {
         </div>
       </div>
 
-      {/* Destination Popup */}
       {/* Destination Popup */}
       {isPopupOpen && filteredDestinations.length > 0 && (
         <div ref={destinationPopupRef} className="popup destination-popup">

@@ -1,51 +1,37 @@
 [
+    
     {
-        "id":1,
-        "hotelName": "The Taj West End",
-        "city": "Bangalore",
-        "state": "Karnataka",
-        "price": 32000,
-        "images": [
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1106434818541152427/original/4d760dda-4343-4334-b646-7c935a9c73f0.jpeg?im_w=320&im_format=avif",
-            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI4NDM3MTY5MTc0ODUwNzYxMQ%3D%3D/original/952bdf60-5b85-4785-bebd-8692650008f1.jpeg?im_w=320&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/4147db64-ed9e-4330-a253-195725f71e0a.jpeg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/9860e954-4612-4e79-9882-33d650d6483f.jpeg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/3cfa7d65-dedd-4956-872c-e8a5696c5f27.jpeg?im_w=720&im_format=avif"
-        ],
-        "rating": 4.8
-    },
-    {
-        "id":2,
+        "id": "23452342",
         "hotelName": "The Oberoi Bangalore",
         "city": "Bangalore",
         "state": "Karnataka",
         "price": 28000,
         "images": [
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/fb72d828-77c5-4985-b87b-f9ba4bb78483.jpeg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/354fed6d-0400-4a9e-9674-b2c3697a9047.jpeg?im_w=320&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/4dbc0349-c4b7-48cc-9345-3d272f264866.jpeg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/0b0092c0-fe44-41fd-97b2-52dd50b18237.jpeg?im_w=320&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/adb74981-5d31-487a-8be1-d3cff1c2baab.jpeg?im_w=720&im_format=avif"
+            "https://a0.muscache.com/im/pictures/d5002470-288f-4b87-851f-f7ae598f9b97.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-876051234573800603/original/979ede54-fb91-4f69-9038-81f8b2f5cf85.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/992fdcec-cc1d-4e07-8014-c8e306e957ce.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/1ddfba3f-90a2-410c-bb8b-adf4064ad796.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/914c15ae-b827-434e-92ce-41cb49766bc2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
         ],
         "rating": 4.7
     },
     {
-        "id":3,
+        "id": "23453",
         "hotelName": "The Leela Mumbai",
         "city": "Mumbai",
         "state": "Maharashtra",
         "price": 37500,
         "images": [
-            "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=1200&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-37898787/original/18a2643f-6e70-47c4-87c5-a91cd9f9ff85.jpeg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/5d5939af-23d0-4ef4-b19b-d0e9c2ee9999.jpg?im_w=720&im_format=avif",
-            "https://a0.muscache.com/im/pictures/miso/Hosting-37898787/original/bbee1a32-43de-4807-a269-8fda217e13dc.jpeg?im_w=320&im_format=avif"
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1345956125003785522/original/4c3504fc-8cf2-4a37-b5ed-472156d7693e.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/41319b47-e147-4c64-a210-1735d365459f.png?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/3bead09a-b937-4ec9-a67f-f2abcee3a46c.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/80a2baf6-1713-4ee0-90ed-0774f551b4ae.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/0f98da77-18a0-4922-b721-6f9fde4a1882.png?im_w=1200&im_format=avif&im_origin=fuzzy"
         ],
         "rating": 4.9
     },
     {
-        "id":4,
+        "id": "457456",
         "hotelName": "Hyatt Centric MG Road",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -60,7 +46,7 @@
         "rating": 4.5
     },
     {
-        "id":5,
+        "id": "53456",
         "hotelName": "ITC Maratha",
         "city": "Mumbai",
         "state": "Maharashtra",
@@ -75,7 +61,7 @@
         "rating": 4.6
     },
     {
-        "id":6,
+        "id": "78676",
         "hotelName": "Shangri-La Hotel",
         "city": "New Delhi",
         "state": "Delhi",
@@ -90,7 +76,7 @@
         "rating": 4.7
     },
     {
-        "id":7,
+        "id": "780235",
         "hotelName": "Radisson Blu",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -105,7 +91,7 @@
         "rating": 4.5
     },
     {
-        "id":8,
+        "id": "80923845",
         "hotelName": "The Grand New Delhi",
         "city": "New Delhi",
         "state": "Delhi",
@@ -120,7 +106,7 @@
         "rating": 4.7
     },
     {
-        "id":9,
+        "id": "0923459",
         "hotelName": "The Park Chennai",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -135,7 +121,7 @@
         "rating": 4.4
     },
     {
-        "id":10,
+        "id": "10234532",
         "hotelName": "Le Meridien Kochi",
         "city": "Kochi",
         "state": "Kerala",
@@ -148,5 +134,754 @@
             "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/55676ea9-13fe-4449-8edf-fb12bf35ed96.jpeg?im_w=320&im_format=avif"
         ],
         "rating": 4.6
+    },
+    {
+        "id": "123532451",
+        "hotelName": "The Gateway Hotel",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "price": 18000,
+        "images": [
+            "https://r1imghtlak.mmtcdn.com/f0b8b360-cad6-4ee8-ba8b-053e89c1f50b.jpeg?downsize=252:160&crop=252:160",
+            "https://r1imghtlak.mmtcdn.com/9e8cd1b4786011ec8d2d0a58a9feac02.jpg?&output-quality=75&downsize=520:350&crop=520:350;0,20&output-format=jpg&downsize=480:336&crop=480:336",
+            "https://r1imghtlak.mmtcdn.com/590d2697-f23b-4649-b05c-cae652310e68.jpeg?downsize=252:160&crop=252:160",
+            "https://r1imghtlak.mmtcdn.com/590d2697-f23b-4649-b05c-cae652310e68.jpeg",
+            "https://r1imghtlak.mmtcdn.com/f1559570786011ec926f0a58a9feac02.jpg"
+        ],
+        "rating": 4.3
+    },
+    {
+        "id": "1224323",
+        "hotelName": "Taj Vivanta",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 23000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-874193507946066263/original/50ea5c97-e127-4440-8fcf-f1cbbf771d3c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/b5edb099-ec65-422b-afb1-8bf69ad6405a.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/9990eaae-143c-4e47-b614-3cfce820fb0c.jpg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "13",
+        "hotelName": "ITC Gardenia",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 29000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/b930ccf1-72ac-48da-b6d4-a197fd169c0c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/e7a94117-897b-4141-a160-d5494f61c3da.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/b5d75967-c317-40fd-aaf7-9d2901e8733a.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/3e6917c9-7f78-44dd-818d-2ec817056bcf.jpeg?im_w=720&im_format=avif&im_origin=fuzzye4"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "14",
+        "hotelName": "Hilton Garden Inn, New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c4e2e60c-f664-4b43-ad8e-800889ed922d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c269b155-4ff8-4dba-8284-69a176419409.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/211cfe5d-1bc7-47c4-b495-d74274a1d5aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/40e06af4-2656-4c85-a327-bc9546cb40d8.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "15",
+        "hotelName": "The Ritz-Carlton Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 55000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjExNTA1NjQ0NjU5NDYwNA%3D%3D/original/5f91a034-ad10-4aee-9f6b-dce101a12d84.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/8008bf99-bb36-46bf-a57c-03ce99c98c0a.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-604855093626546308/original/e87a6018-10e5-488b-a7f7-cddca3f63baf.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-51126751/original/f51043e1-a11e-433e-93ed-8eda53b496d8.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "16",
+        "hotelName": "ITC Sonar, Kolkata",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/a6811705-b938-4df2-9c8a-8f7f14d12fc5.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/8c0343df-00fb-4879-a029-f3eedf7d3dbb.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/743a1768-a776-4da1-845b-70b39a1f97da.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/5dde2538-a775-4c7b-940d-2fb5931841cf.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/b857ffae-2d85-421b-9922-1335f71446cf.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "17",
+        "hotelName": "Hilton Garden Inn, New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c4e2e60c-f664-4b43-ad8e-800889ed922d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c269b155-4ff8-4dba-8284-69a176419409.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/211cfe5d-1bc7-47c4-b495-d74274a1d5aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/40e06af4-2656-4c85-a327-bc9546cb40d8.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "18",
+        "hotelName": "JW Marriott Hotel, Chandigarh",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "price": 33000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/a6811705-b938-4df2-9c8a-8f7f14d12fc5.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/ebdc7cd7-aa94-41ce-a432-d954a4d11ebf.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/f2f3d82f-ee64-4b5e-8a34-da85e0574a3e.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/96e954f2-bb66-4bab-b742-162740cef17d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/ae10a2f7-fa6f-46af-8bb0-d885f4c8f39d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "19",
+        "hotelName": "Taj Coromandel",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 35000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/9267237d-6034-4269-b717-ea7dfad3c39b.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/bef9165c-a22a-403f-904e-66c4a2f4d11d.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/8740f403-7c87-49df-a1f7-bf6fbc456629.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/3827d87d-3d64-4a57-81f5-21f355f54b2f.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/97b0604f-bc66-423e-8a64-762d1280bdb8.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "20",
+        "hotelName": "Le Méridien Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 23000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1049733190500047152/original/369b0c2a-b281-491a-b7ac-7a0a6eb04825.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1049733190500047152/original/45675b28-b663-4ada-af74-f781e8fe7459.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-562142234279288115/original/88e3d09d-3995-4ec3-b8f0-c00049c22874.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-562142234279288115/original/6b7b6c03-dba5-4481-aa2d-6671f8737981.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "21",
+        "hotelName": "Grand Hyatt Goa",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 40000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/b9e234e1-1b77-440b-8daf-61be1fd380e6.jpg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/745dc2c2-ce9b-4cde-abe3-6df9a706afe5.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/db62587f-863a-4878-bbd8-601897983ea4.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/cacf66b1-deb9-483f-be8d-e5e8fd302bef.jpg?im_w=320&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "12343245",
+        "hotelName": "The Taj West End",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/e5d55874-38c4-4a8e-bc66-201946d0eceb.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/ed63cc7a-842b-487f-9974-0e474192d10f.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/8e227421-9a4f-4d9f-8337-94e920ce0204.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/5d6573ca-f1a0-4c4b-92e2-8065a7627a1a.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/f42b95d5-06a9-49cb-bb0c-f29332a8e3e2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "231",
+        "hotelName": "Taj Fort Aguada Resort & Spa",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 45000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/0d4ddc44-3d47-43d3-a7dc-dfe2ebf1fd14.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/906f01d4-1e08-42e7-8483-30d4b63816e9.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/d340aa29-a24e-4507-99e0-1422099ac920.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/906f01d4-1e08-42e7-8483-30d4b63816e9.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/872bebbc-c603-4a3b-99e5-ac760f494946.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "1234",
+        "hotelName": "Crowne Plaza, Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/da3cc987-4027-483f-a251-debe6dff3b3d.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/79e3a042-fd5b-45b1-9863-2114dd9b5702.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/4f0ff346-3296-45bb-b0c1-08ad14b4a962.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/f8f85978-0bdb-49b0-89da-1bbca9abccf6.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/f8610e07-724b-463a-b0b0-1a6e0657b33b.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "179",
+        "hotelName": "Radisson Blu Hotel, Agra",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/90c0ab07-d7bd-42f9-b085-f1bca998b0fe.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDcwNjc0MTM%3D/original/30faada3-babc-45f8-9622-7fdacc2313df.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/d4edf966-9428-4344-be44-73bd1cb43e3b.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47067413/original/4832a573-d49a-42b4-930a-299299762e14.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.3
+    },
+    {
+        "id": "3551",
+        "hotelName": "The Taj West End",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/e5d55874-38c4-4a8e-bc66-201946d0eceb.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/ed63cc7a-842b-487f-9974-0e474192d10f.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/8e227421-9a4f-4d9f-8337-94e920ce0204.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/5d6573ca-f1a0-4c4b-92e2-8065a7627a1a.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/f42b95d5-06a9-49cb-bb0c-f29332a8e3e2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "35345231",
+        "hotelName": "The Oberoi Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d5002470-288f-4b87-851f-f7ae598f9b97.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-876051234573800603/original/979ede54-fb91-4f69-9038-81f8b2f5cf85.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/992fdcec-cc1d-4e07-8014-c8e306e957ce.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/1ddfba3f-90a2-410c-bb8b-adf4064ad796.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/914c15ae-b827-434e-92ce-41cb49766bc2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "1345234",
+        "hotelName": "The Leela Mumbai",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 37500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1345956125003785522/original/4c3504fc-8cf2-4a37-b5ed-472156d7693e.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/41319b47-e147-4c64-a210-1735d365459f.png?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/3bead09a-b937-4ec9-a67f-f2abcee3a46c.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/80a2baf6-1713-4ee0-90ed-0774f551b4ae.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/0f98da77-18a0-4922-b721-6f9fde4a1882.png?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "123452345",
+        "hotelName": "Hyatt Centric MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 25000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/458be275-af05-4cd6-ae4c-48dbfc0b5d5d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/65ebbfbb-0661-4ac7-a458-02e97bb6c76b.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/be7970f8-c628-4fa1-94d3-b01a489d1612.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/458be275-af05-4cd6-ae4c-48dbfc0b5d5d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/dd8e0fca-c14f-48ad-b049-8344862f22a1.jpg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "1685678",
+        "hotelName": "ITC Maratha",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 30000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/a6e9ab77-4626-4cc7-bd57-bfbf1dba49b4.jpg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/a56c1197-e0ee-4b49-b8f2-29688b809744.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/747b64cb-7386-4b77-bb61-8b80191ab4dc.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-44949215/original/c721c321-026c-45c9-92c3-262ca7e5b04c.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/8a55c9dd-2dee-4435-b076-01f2576bfad8.jpg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "134563456",
+        "hotelName": "Shangri-La Hotel",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 35000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/02f4acaa-2ade-4194-ae40-9a2ebf3be89b.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/08276d3f-1962-4b94-bd46-f418b148acb5.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/72274e33-be1f-4d5d-9ecc-7d5f826a8d51.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/46d036fe-22d9-43e9-a31e-2fda07f6a324.jpeg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-791873605831626189/original/4a8cadc1-2bc4-46b6-bd43-b53969694e84.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "547456436",
+        "hotelName": "Radisson Blu",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 18000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/bd9b2efd-0046-4b2e-ac7e-de59f6458521.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/e1387ceb-abdb-4fcb-9236-bd90da2e8c55.jpg?im_w=1200&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExNzA4MDkwNTgxODYzNjY5Mg%3D%3D/original/5831fbfe-0cbc-4959-a3d2-0f423b731e73.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjExNTA1NjQ0NjU5NDYwNA%3D%3D/original/9cbd5c39-9f29-4e0f-815a-a015c26d5647.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "34563465246",
+        "hotelName": "The Grand New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 32500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/ff34926a-564d-44d0-a23a-3c3f78dd601f.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/2ea2e6e4-cfc3-4b9b-901e-fe8686cd3215.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-44623481/original/cb28e408-714b-4142-afac-190d8a6416fe.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/d434bc1c-40fd-4b82-8ed4-51cd77cc8231.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-44623481/original/c0069a5e-c5c6-42c3-ade4-9b9f40bb9768.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "24568935",
+        "hotelName": "The Park Chennai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/5202fc72-5e7e-49e3-af0e-e2b5e9084a0a.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/658be922-b210-4685-a6eb-aed2d31321d9.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/94ca8385-9e58-46c9-85d9-3e7a516f69cc.jpg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/8cf73c89-1d2e-49e2-92b3-b0c8abcc2b0e.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/054fee7e-2836-4a6c-aa26-86c78723d9bf.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.4
+    },
+    {
+        "id": "593485",
+        "hotelName": "Le Meridien Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 20000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/0973118e-332e-4f01-a6a2-fd91795d2228.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/a160ceff-61c4-461c-bdfe-b9e7548e6926.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/920cf384-b2ca-44b5-9d44-50362b2b8b9d.jpg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/b4f3801b-fa55-4291-b352-83a117e26595.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/55676ea9-13fe-4449-8edf-fb12bf35ed96.jpeg?im_w=320&im_format=avif"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "534390485",
+        "hotelName": "The Gateway Hotel",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "price": 18000,
+        "images": [
+            "https://r1imghtlak.mmtcdn.com/f0b8b360-cad6-4ee8-ba8b-053e89c1f50b.jpeg?downsize=252:160&crop=252:160",
+            "https://r1imghtlak.mmtcdn.com/9e8cd1b4786011ec8d2d0a58a9feac02.jpg?&output-quality=75&downsize=520:350&crop=520:350;0,20&output-format=jpg&downsize=480:336&crop=480:336",
+            "https://r1imghtlak.mmtcdn.com/590d2697-f23b-4649-b05c-cae652310e68.jpeg?downsize=252:160&crop=252:160",
+            "https://r1imghtlak.mmtcdn.com/590d2697-f23b-4649-b05c-cae652310e68.jpeg",
+            "https://r1imghtlak.mmtcdn.com/f1559570786011ec926f0a58a9feac02.jpg"
+        ],
+        "rating": 4.3
+    },
+    {
+        "id": "3456345",
+        "hotelName": "Taj Vivanta",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 23000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-874193507946066263/original/50ea5c97-e127-4440-8fcf-f1cbbf771d3c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/b5edb099-ec65-422b-afb1-8bf69ad6405a.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/9990eaae-143c-4e47-b614-3cfce820fb0c.jpg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "678961",
+        "hotelName": "ITC Gardenia",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 29000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/b930ccf1-72ac-48da-b6d4-a197fd169c0c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/e7a94117-897b-4141-a160-d5494f61c3da.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/b5d75967-c317-40fd-aaf7-9d2901e8733a.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/3e6917c9-7f78-44dd-818d-2ec817056bcf.jpeg?im_w=720&im_format=avif&im_origin=fuzzye4"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "356156784",
+        "hotelName": "Hilton Garden Inn, New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c4e2e60c-f664-4b43-ad8e-800889ed922d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c269b155-4ff8-4dba-8284-69a176419409.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/211cfe5d-1bc7-47c4-b495-d74274a1d5aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/40e06af4-2656-4c85-a327-bc9546cb40d8.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "3673671",
+        "hotelName": "The Ritz-Carlton Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 55000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjExNTA1NjQ0NjU5NDYwNA%3D%3D/original/5f91a034-ad10-4aee-9f6b-dce101a12d84.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/d2b6be35-0b3f-47d6-b6a8-e9d9a44f62e9.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/8008bf99-bb36-46bf-a57c-03ce99c98c0a.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-604855093626546308/original/e87a6018-10e5-488b-a7f7-cddca3f63baf.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-51126751/original/f51043e1-a11e-433e-93ed-8eda53b496d8.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "5768681",
+        "hotelName": "ITC Sonar, Kolkata",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/a6811705-b938-4df2-9c8a-8f7f14d12fc5.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/8c0343df-00fb-4879-a029-f3eedf7d3dbb.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/743a1768-a776-4da1-845b-70b39a1f97da.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/5dde2538-a775-4c7b-940d-2fb5931841cf.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/b857ffae-2d85-421b-9922-1335f71446cf.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "1456234",
+        "hotelName": "Hilton Garden Inn, New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c4e2e60c-f664-4b43-ad8e-800889ed922d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c269b155-4ff8-4dba-8284-69a176419409.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/211cfe5d-1bc7-47c4-b495-d74274a1d5aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/40e06af4-2656-4c85-a327-bc9546cb40d8.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "12345",
+        "hotelName": "JW Marriott Hotel, Chandigarh",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "price": 33000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/a6811705-b938-4df2-9c8a-8f7f14d12fc5.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/ebdc7cd7-aa94-41ce-a432-d954a4d11ebf.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/f2f3d82f-ee64-4b5e-8a34-da85e0574a3e.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/96e954f2-bb66-4bab-b742-162740cef17d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-815563633693763435/original/ae10a2f7-fa6f-46af-8bb0-d885f4c8f39d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "17890",
+        "hotelName": "Taj Coromandel",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 35000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/9267237d-6034-4269-b717-ea7dfad3c39b.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/bef9165c-a22a-403f-904e-66c4a2f4d11d.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/8740f403-7c87-49df-a1f7-bf6fbc456629.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/3827d87d-3d64-4a57-81f5-21f355f54b2f.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-53158805/original/97b0604f-bc66-423e-8a64-762d1280bdb8.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "11111",
+        "hotelName": "Le Méridien Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 23000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1049733190500047152/original/369b0c2a-b281-491a-b7ac-7a0a6eb04825.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1049733190500047152/original/45675b28-b663-4ada-af74-f781e8fe7459.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-562142234279288115/original/88e3d09d-3995-4ec3-b8f0-c00049c22874.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-562142234279288115/original/6b7b6c03-dba5-4481-aa2d-6671f8737981.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "199274",
+        "hotelName": "Grand Hyatt Goa",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 40000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/65798042-c2dd-4d98-ab59-7a0803dce120.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/b9e234e1-1b77-440b-8daf-61be1fd380e6.jpg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/745dc2c2-ce9b-4cde-abe3-6df9a706afe5.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-598178014362166177/original/db62587f-863a-4878-bbd8-601897983ea4.jpeg?im_w=320&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/cacf66b1-deb9-483f-be8d-e5e8fd302bef.jpg?im_w=320&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "09213942",
+        "hotelName": "Taj Fort Aguada Resort & Spa",
+        "city": "Goa",
+        "state": "Goa",
+        "price": 45000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/0d4ddc44-3d47-43d3-a7dc-dfe2ebf1fd14.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/906f01d4-1e08-42e7-8483-30d4b63816e9.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/d340aa29-a24e-4507-99e0-1422099ac920.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/906f01d4-1e08-42e7-8483-30d4b63816e9.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/872bebbc-c603-4a3b-99e5-ac760f494946.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "98374623",
+        "hotelName": "Crowne Plaza, Kochi",
+        "city": "Kochi",
+        "state": "Kerala",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/da3cc987-4027-483f-a251-debe6dff3b3d.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/79e3a042-fd5b-45b1-9863-2114dd9b5702.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/4f0ff346-3296-45bb-b0c1-08ad14b4a962.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-714926546353928303/original/f8f85978-0bdb-49b0-89da-1bbca9abccf6.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/f8610e07-724b-463a-b0b0-1a6e0657b33b.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "11244534",
+        "hotelName": "Radisson Blu Hotel, Agra",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "price": 22000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/90c0ab07-d7bd-42f9-b085-f1bca998b0fe.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDcwNjc0MTM%3D/original/30faada3-babc-45f8-9622-7fdacc2313df.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "http://a0.muscache.com/im/pictures/d4edf966-9428-4344-be44-73bd1cb43e3b.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-47067413/original/4832a573-d49a-42b4-930a-299299762e14.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/660630cb-fec0-4ed5-8ecd-8370d9594760.jpg?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "11323423",
+        "hotelName": "The Taj West End",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/e5d55874-38c4-4a8e-bc66-201946d0eceb.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/ed63cc7a-842b-487f-9974-0e474192d10f.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/8e227421-9a4f-4d9f-8337-94e920ce0204.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/5d6573ca-f1a0-4c4b-92e2-8065a7627a1a.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ0ODMwNjMyNjMzNzk4MDM0/original/f42b95d5-06a9-49cb-bb0c-f29332a8e3e2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "782367",
+        "hotelName": "The Oberoi Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/d5002470-288f-4b87-851f-f7ae598f9b97.jpg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-876051234573800603/original/979ede54-fb91-4f69-9038-81f8b2f5cf85.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/992fdcec-cc1d-4e07-8014-c8e306e957ce.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/1ddfba3f-90a2-410c-bb8b-adf4064ad796.jpeg?im_w=480&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-838801915229798391/original/914c15ae-b827-434e-92ce-41cb49766bc2.jpeg?im_w=480&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "0821384",
+        "hotelName": "The Leela Mumbai",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 37500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1345956125003785522/original/4c3504fc-8cf2-4a37-b5ed-472156d7693e.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/41319b47-e147-4c64-a210-1735d365459f.png?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/3bead09a-b937-4ec9-a67f-f2abcee3a46c.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/80a2baf6-1713-4ee0-90ed-0774f551b4ae.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1353564494388947531/original/0f98da77-18a0-4922-b721-6f9fde4a1882.png?im_w=1200&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "12384924",
+        "hotelName": "The Taj West End",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 32000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1106434818541152427/original/4d760dda-4343-4334-b646-7c935a9c73f0.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI4NDM3MTY5MTc0ODUwNzYxMQ%3D%3D/original/952bdf60-5b85-4785-bebd-8692650008f1.jpeg?im_w=320&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/4147db64-ed9e-4330-a253-195725f71e0a.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/9860e954-4612-4e79-9882-33d650d6483f.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1296467402938349625/original/3cfa7d65-dedd-4956-872c-e8a5696c5f27.jpeg?im_w=720&im_format=avif"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "8392",
+        "hotelName": "The Oberoi Bangalore",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 28000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/c4e2e60c-f664-4b43-ad8e-800889ed922d.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/de5ccc9e-09f2-4d17-a7b5-d5a7b601e74c.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/33b225d6-33d5-422f-b5e7-54b1fc97e5e6.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/109d2fb4-fa16-4e52-8072-659f5d2caa46.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "12348239",
+        "hotelName": "The Leela Mumbai",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 37500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/74d9364e-b98a-49ef-9fbd-9d6804fccc2d.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/247e78e9-bf27-46db-91c3-d331f99b8596.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/37594288-b12f-45d1-b90f-75e8e6754be7.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/83821a73-e5e9-40ca-987f-77f9c1ece7e2.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-569176168823468028/original/9e265b16-32c1-4673-ace8-52ea96816539.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "9999",
+        "hotelName": "Hyatt Centric MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "price": 25000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-874193507946066263/original/50ea5c97-e127-4440-8fcf-f1cbbf771d3c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/b930ccf1-72ac-48da-b6d4-a197fd169c0c.jpeg?im_w=960&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/6969a864-35bf-4c1d-a6a0-8b82b01f8481.jpeg?im_w=1200&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/337f8de7-c6f5-4c02-a524-2df6c3f1b5cb.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1329330227869310972/original/299f8df9-9fba-4e3e-b13f-faab09e6accf.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "123423451",
+        "hotelName": "ITC Maratha",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "price": 30000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1004985293503064559/original/6fe68949-e0f5-432d-ab9c-6e39fc4fa6aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1004985293503064559/original/6fe68949-e0f5-432d-ab9c-6e39fc4fa6aa.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1175974150067790967/original/2e65127d-5250-45c3-b354-aa3f22512b9e.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzQ4ODg0MDk3MjEyMjg4Ng%3D%3D/original/0d4ddc44-3d47-43d3-a7dc-dfe2ebf1fd14.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1049733190500047152/original/5551c262-55d1-4a2d-94f0-f0ad98ce468f.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": "80989854",
+        "hotelName": "Shangri-La Hotel",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 35000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/9035839e-9881-4890-a157-a8f60393b3e6.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/ac2ac15d-73ea-472a-9776-e597e1fb34e0.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-15658643/original/eb8b3452-5445-484b-b259-bf6926b25f74.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-15658643/original/eb8b3452-5445-484b-b259-bf6926b25f74.png?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/99e43a6e-5382-4388-839b-7349b2540aff.jpg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "23429",
+        "hotelName": "Radisson Blu",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "price": 18000,
+        "images": [
+            "https://a0.muscache.com/im/pictures/55bfb500-12bd-4cbf-a586-aab8d6e7d53c.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-907264951621479978/original/1f4b0f0d-536b-45d4-81f1-b0e816da2949.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-16263530/original/cc7c1da0-babf-4bd2-8e16-a734138a6eb4.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-45092475/original/363dda4e-6446-4bfb-bfe4-6917e791a5d2.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-880897998984794183/original/600a9ed8-8671-4504-a858-ed18809cd1d5.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": "2194412",
+        "hotelName": "The Grand New Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "price": 32500,
+        "images": [
+            "https://a0.muscache.com/im/pictures/c334495a-07cc-482b-9272-b1c7b1ca0bbe.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-54057587/original/58313147-442a-44ea-ac30-5f22c0261d52.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/1d98baf0-92aa-43c6-a1c9-b3fff2a497d9.jpg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-907949491857176822/original/b6bd6a48-860c-424c-a707-e968fa81f197.jpeg?im_w=720&im_format=avif&im_origin=fuzzy",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-625759051698693330/original/5e4a2811-fdc2-46ce-8877-ce3a72c16404.jpeg?im_w=720&im_format=avif&im_origin=fuzzy"
+        ],
+        "rating": 4.7
     }
 ]

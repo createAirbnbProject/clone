@@ -66,8 +66,8 @@ const ScrollBar = () => {
 
         {/* Scrollable Container */}
         <div className="scroll-container" ref={scrollWrapperRef}>
-          {items.map((item) => (
-            <div key={item.id} className="scroll-item">
+          {items.map((item, i) => (
+            <div key={i} className="scroll-item">
               <img src={item.img} alt={item.name} className="item-image" />
               <p className="item-name">{item.name}</p>
             </div>

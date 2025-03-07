@@ -16,12 +16,55 @@ const SearchBar = () => {
   const [inputValue, setInputValue] = useState("");
   const [guests, setGuests] = useState({ adults: 0, children: 0, infants: 0, pets: 0 });
 
-  const destinations = [
-    { name: "Puducherry, Puducherry", description: "Popular beach destination", icon: "🏖️" },
-    { name: "North Goa, Goa", description: "For sights like Fort Aguada", icon: "🌊" },
-    { name: "Ooty, Tamil Nadu", description: "Great for a weekend getaway", icon: "⛰️" },
-    { name: "Manali, Himachal Pradesh", description: "Famous for snowy mountains", icon: "🏔️" },
-    { name: "Shimla, Himachal Pradesh", description: "A beautiful hill station", icon: "🏞️" },
+  const destinations =  [
+    {
+        id: 1,
+        name: "Puducherry, Puducherry",
+        description: "Popular beach destination",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/97624dd8-97a3-4733-97cc-b8dc0c74d23d.png",
+    },
+    {
+        id: 2,
+        name: "North Goa, Goa",
+        description: "For sights like Fort Aguada",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/06f0f050-c167-4d1e-89e1-2775be94f82a.png",
+    },
+    {
+        id: 3,
+        name: "Ooty, Tamil Nadu",
+        description: "Great for a weekend getaway",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/07869b83-5328-4f3d-8087-a7d1e9782434.png",
+    },
+    {
+        id: 4,
+        name: "South Goa, Goa",
+        description: "For nature lovers",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/ebb968b2-3fb6-45d3-b675-7765e487f7b9.png",
+    },
+    {
+        id: 5,
+        name: "Mysore, Karnataka",
+        description: "For its stunning architecture",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/2b5fff53-d328-4beb-839a-cfe4fcb4223a.png",
+    },
+    {
+        id: 6,
+        name: "Madikeri, Karnataka",
+        description: "Great for a weekend getaway",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/4499ccb1-c8fb-4b5c-8383-44e589d200fa.png",
+    },
+    {
+        id: 7,
+        name: "Wayanad, Kerala",
+        description: "Great for summer getaways",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-2/original/58e934fa-33ed-4caf-800e-7e268bb0d3c7.png",
+    },
+    {
+        id: 8,
+        name: "Calangute, Goa",
+        description: "For its bustling nightlife",
+        logo: "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-2/original/447b22da-3842-4977-89c9-d58e182c0ce2.png",
+    },
   ];
 
   // Filter destinations based on input value
@@ -193,7 +236,7 @@ const SearchBar = () => {
                 className="popup-item"
                 onClick={() => handleDestinationSelect(destination.name)}
               >
-                <span className="destination-icon">{destination.icon}</span>
+                <span className="destination-icon"><img src={destination?.logo} alt="" height="10px" width="10px"/></span>
                 <div className="destination-details">
                   <h3>{destination.name}</h3>
                   <p>{destination.description}</p>

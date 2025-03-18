@@ -1,20 +1,29 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
+import { useForm } from "react-hook-form";
 import "../../CSS/searchbar.css";
+import { FaSearch } from "react-icons/fa";
 
 const SearchBar = () => {
-  const destinationButtonRef = useRef(null);
-  const guestButtonRef = useRef(null);
-  const destinationPopupRef = useRef(null);
-  const guestPopupRef = useRef(null);
+  const {
+    register,
+    handleSubmit,
+    watch,
+    setValue,
+    getValues,
+    formState: { errors },
+  } = useForm({
+    defaultValues: {
+      destination: "",
+      fromDate: new Date().toISOString().split("T")[0],
+      toDate: new Date().toISOString().split("T")[0],
+      guests: { adults: 0, children: 0, infants: 0, pets: 0 },
+    },
+  });
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isGuestPopupOpen, setIsGuestPopupOpen] = useState(false);
-  const [fromDate, setFromDate] = useState(new Date().toISOString().split("T")[0])
-  const [toDate, setToDate] = useState(new Date().toISOString().split("T")[0])
-
-
-  const [inputValue, setInputValue] = useState("");
-  const [guests, setGuests] = useState({ adults: 0, children: 0, infants: 0, pets: 0 });
+  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+  const [guestPopupPosition, setGuestPopupPosition] = useState({ top: 0, left: 0 });
 
   const destinations =  [
     {
@@ -67,28 +76,17 @@ const SearchBar = () => {
     },
   ];
 
-  // Filter destinations based on input value
+  const destinationInputValue = watch("destination");
   const filteredDestinations = destinations.filter((destination) =>
-    destination.name.toLowerCase().includes(inputValue.toLowerCase())
+    destination.name.toLowerCase().includes(destinationInputValue.toLowerCase())
   );
 
-  // Close popup when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (
-        destinationPopupRef.current &&
-        !destinationPopupRef.current.contains(event.target) &&
-        destinationButtonRef.current &&
-        !destinationButtonRef.current.contains(event.target)
-      ) {
+      if (!event.target.closest(".destination-popup") && !event.target.closest(".destination-button")) {
         setIsPopupOpen(false);
       }
-      if (
-        guestPopupRef.current &&
-        !guestPopupRef.current.contains(event.target) &&
-        guestButtonRef.current &&
-        !guestButtonRef.current.contains(event.target)
-      ) {
+      if (!event.target.closest(".guest-popup") && !event.target.closest(".guest-button")) {
         setIsGuestPopupOpen(false);
       }
     };
@@ -97,187 +95,111 @@ const SearchBar = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Calculate popup position for destination
-  useLayoutEffect(() => {
-    if (isPopupOpen && destinationButtonRef.current && destinationPopupRef.current) {
-      const rect = destinationButtonRef.current.getBoundingClientRect();
-      destinationPopupRef.current.style.top = `${rect.bottom + window.scrollY + 10}px`;
-      destinationPopupRef.current.style.left = `${rect.left + window.scrollX}px`;
-    }
-  }, [isPopupOpen, inputValue]);
+  const handlePopupOpen = (event, type) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const position = { top: rect.bottom + window.scrollY + 10, left: rect.left + window.scrollX };
 
-  // Calculate popup position for guests
-  useLayoutEffect(() => {
-    if (isGuestPopupOpen && guestButtonRef.current && guestPopupRef.current) {
-      const rect = guestButtonRef.current.getBoundingClientRect();
-      guestPopupRef.current.style.top = `${rect.bottom + window.scrollY + 10}px`;
-      guestPopupRef.current.style.left = `${rect.left + window.scrollX}px`;
+    if (type === "destination") {
+      setPopupPosition(position);
+      setIsPopupOpen(true);
+    } else {
+      setGuestPopupPosition(position);
+      setIsGuestPopupOpen(true);
     }
-  }, [isGuestPopupOpen]);
+  };
 
   const handleDestinationSelect = (destinationName) => {
-    setInputValue(destinationName);
+    setValue("destination", destinationName);
     setIsPopupOpen(false);
   };
 
   const handleGuestChange = (type, delta) => {
-    setGuests((prevGuests) => {
-      let newGuests = { ...prevGuests };
-
-      // Prevent reducing adults to 0 if an infant or pet is selected
-      if (type === "adults" && newGuests.adults === 1 && (newGuests.infants > 0 || newGuests.pets > 0)) {
-        return prevGuests; // Do nothing if reducing adults would cause an issue
-      }
-
-      // Prevent selecting infants or pets without an adult or child
-      if ((type === "infants" || type === "pets") && newGuests.adults === 0 && newGuests.children === 0) {
-        return prevGuests; // Do nothing if no adult or child is selected
-      }
-
-      newGuests[type] = Math.max(0, newGuests[type] + delta); // Ensure no negative values
-
-      return newGuests;
-    });
+    const currentGuests = getValues("guests");
+    let newGuests = { ...currentGuests };
+    newGuests[type] = Math.max(0, newGuests[type] + delta);
+    setValue("guests", newGuests);
   };
 
-
   const formatGuests = () => {
+    const guests = watch("guests");
     let guestText = [];
-
-    if (guests.adults > 0) guestText.push(`${guests.adults} Adult${guests.adults > 1 ? "s" : ""}`);
-    if (guests.children > 0) guestText.push(`${guests.children} Child${guests.children > 1 ? "ren" : ""}`);
-    if (guests.infants > 0) guestText.push(`${guests.infants} Infant${guests.infants > 1 ? "s" : ""}`);
-    if (guests.pets > 0) guestText.push(`${guests.pets} Pet${guests.pets > 1 ? "s" : ""}`);
-
+    Object.entries(guests).forEach(([key, value]) => {
+      if (value > 0) guestText.push(`${value} ${key.charAt(0).toUpperCase() + key.slice(1)}`);
+    });
     return guestText.length > 0 ? guestText.join(", ") : "Add guests";
   };
 
-
+  const onSubmit = (data) => {
+    console.log("Form Data:", data);
+  };
 
   return (
-    <>
-      <div className="search_box_main_container">
-        <div className="search_box">
-          {/* Destination Selection */}
-          <div
-            className="searchBar_items"
-            tabIndex="0"
-            ref={destinationButtonRef}
-            onClick={() => setIsPopupOpen(true)}
-            aria-expanded={isPopupOpen}
-          >
-            <p>Where</p>
-            <input
-              type="text"
-              placeholder="Search destinations"
-              value={inputValue}
-              onChange={(e) => {
-                setInputValue(e.target.value);
-                setIsPopupOpen(true); // Keep popup open when typing
-              }}
-            />
-          </div>
-
-          <div className="divider"></div>
-
-          <div className="searchBar_items" tabIndex="0">
-            <p>Check in</p>
-            <input
-              type="date"
-              value={fromDate}
-              min={new Date().toISOString().split("T")[0]}
-              onChange={(e) => {
-                setFromDate(()=>e.target.value)
-                setToDate(()=>e.target.value)
-              }}
-            />
-          </div>
-
-          <div className="divider"></div>
-
-          <div className="searchBar_items" tabIndex="0">
-            <p>Check out</p>
-            <input
-              type="date"
-              value={toDate}
-              min={fromDate}
-              onChange={(e) => setToDate(e.target.value)}
-            />
-          </div>
-
-          <div className="divider"></div>
-
-          {/* Guest Selection */}
-          <div
-            className="searchBar_items"
-            tabIndex="0"
-            ref={guestButtonRef}
-            onClick={() => setIsGuestPopupOpen(true)}
-            aria-expanded={isGuestPopupOpen}
-          >
-            <p>Who</p>
-            <input
-              type="text"
-              name="guests"
-              placeholder="Add guests"
-              readOnly
-              value={formatGuests()}
-            />
-          </div>
+    <form onSubmit={handleSubmit(onSubmit)} className="search_box_main_container">
+      <div className="search_box">
+        <div className="searchBar_items destination-button" onClick={(e) => handlePopupOpen(e, "destination")} tabIndex='0'>
+          <p>Where</p>
+          <input type="text" placeholder="Search destinations" {...register("destination")} />
         </div>
 
-        {/* Destination Popup */}
-        {isPopupOpen && filteredDestinations.length > 0 && (
-          <div ref={destinationPopupRef} className="popup destination-popup">
-            <p className="popup-title">Suggested Destinations</p>
-            {filteredDestinations.map((destination, index) => (
-              <button
-                key={index}
-                className="popup-item"
-                onClick={() => handleDestinationSelect(destination.name)}
-              >
-                <span className="destination-icon"><img src={destination?.logo} alt="" height="10px" width="10px"/></span>
-                <div className="destination-details">
-                  <h3>{destination.name}</h3>
-                  <p>{destination.description}</p>
-                </div>
-              </button>
-            ))}
-          </div>
-        )}
+        <div className="divider"></div>
 
-        {/* Guest Popup */}
-        {isGuestPopupOpen && (
-          <div ref={guestPopupRef} className="popup guest-popup">
-            <p className="popup-title">Select Guests</p>
-            {Object.entries(guests).map(([key, value]) => (
-              <div key={key} className="guest-row">
-                <p>{key.charAt(0).toUpperCase() + key.slice(1)}</p>
-                <div className="guest-controls">
+        <div className="searchBar_items" tabIndex='0'>
+          <p>Check in</p>
+          <input type="date" {...register("fromDate")} min={new Date().toISOString().split("T")[0]} onFocus={(e) => e.target.showPicker()}/>
+        </div>
 
-                  <button
-                    onClick={() => handleGuestChange(key, -1)}
-                    disabled={(key === "adults" || key === "children") && (guests.adults + guests.children === 1) && (guests.infants > 0 || guests.pets > 0) || guests[key] === 0}
-                  >
-                    -
-                  </button>
+        <div className="divider"></div>
 
-                  <span>{value}</span>
+        <div className="searchBar_items" tabIndex='0'>
+          <p>Check out</p>
+          <input type="date" {...register("toDate")} min={watch("fromDate")} onFocus={(e) => e.target.showPicker()} />
+        </div>
 
-                  <button
-                    onClick={() => handleGuestChange(key, 1)}
-                    disabled={(key === "infants" || key === "pets") && (guests.adults === 0 && guests.children === 0)}
-                  >
-                    +
-                  </button>
+        <div className="divider"></div>
 
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+        <div className="searchBar_items guest-button" onClick={(e) => handlePopupOpen(e, "guest")} tabIndex='0'>
+          <p>Who</p>
+          <input type="text" placeholder="Add guests" readOnly value={formatGuests()} />
+        </div>
+
+        <div className="divider"></div>
+
+        <button type="submit" className="search_btn">
+          <FaSearch fill="white" className="search_icon" />
+        </button>
       </div>
-    </>
+
+      {isPopupOpen && (
+        <div className="popup destination-popup" style={popupPosition}>
+          <p className="popup-title">Suggested Destinations</p>
+          {filteredDestinations.map((destination, index) => (
+            <button key={index} type="button" className="popup-item" onClick={() => handleDestinationSelect(destination.name)}>
+              <span className="destination-icon">{destination.icon}</span>
+              <div className="destination-details">
+                <h3>{destination.name}</h3>
+                <p>{destination.description}</p>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {isGuestPopupOpen && (
+        <div className="popup guest-popup" style={guestPopupPosition}>
+          <p className="popup-title">Select Guests</p>
+          {Object.entries(watch("guests")).map(([key, value]) => (
+            <div key={key} className="guest-row">
+              <p>{key.charAt(0).toUpperCase() + key.slice(1)}</p>
+              <div className="guest-controls">
+                <button type="button" onClick={() => handleGuestChange(key, -1)} disabled={value === 0}>-</button>
+                <span>{value}</span>
+                <button type="button" onClick={() => handleGuestChange(key, 1)}>+</button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </form>
   );
 };
 

@@ -1,0 +1,44 @@
+.image_logo {
+  height: 80px;
+  width: 150px;
+  /* margin-top: -10px; */
+  /* margin-left: 20px; */
+}
+
+.HeaderMainContainer {
+  display: flex;
+}
+
+.HeaderChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.LoginSide {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.mainHeader {
+  font-weight: 600;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingStar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hotelLocation {
+  margin-top: -1px;
+}

@@ -1,0 +1,189 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.search_box_main_container {
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+/* Search Box */
+.search_box {
+  position: relative;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 50px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Search Bar Items */
+.searchBar_items {
+  width: 25%;
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.searchBar_items:has(:focus) {
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+.searchBar_items input {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  color: #333;
+}
+
+.searchBar_items input::placeholder {
+  color: #999;
+}
+
+.searchBar_items:focus-within {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Divider */
+.divider {
+  border-left: 1px solid #ccc;
+  height: 30px;
+}
+
+/* Search Button */
+.search_btn {
+  width: 70px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff385c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+/* Common Popup Styles */
+.popup {
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+/* Destination Popup */
+.destination-popup {
+  min-width: 280px;
+  max-height: 350px;
+  overflow-y: auto;
+  left: 0;
+  top: 110%;
+  border: 1px solid #ddd;
+}
+
+/* Guest Popup */
+.guest-popup {
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 110%;
+  border: 1px solid #ddd;
+}
+
+/* Popup Title */
+.popup-title {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Destination Items */
+.popup-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.popup-item:hover {
+  background-color: #e6e6e6;
+}
+
+/* Guest Row */
+.guest-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.guest-row:last-child {
+  border-bottom: none;
+}
+
+/* Guest Controls */
+.guest-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.guest-controls button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.guest-controls button:hover {
+  background-color: #d9d9d9;
+  transform: scale(1.1);
+}

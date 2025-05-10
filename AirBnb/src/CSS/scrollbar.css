@@ -1,0 +1,151 @@
+.scroll-bar-container {
+  margin-top: 10px; 
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between; 
+  margin-left: 50px;
+}
+
+.scroll-bar-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid black;
+  font-size: 10px;
+  transition: opacity 0.5s ease-in-out, background-color 0.3s;
+}
+
+.hidden-button {
+  opacity: 0;
+  pointer-events: none; /* Prevents clicking when hidden */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-container {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  margin: 10px 0px;
+  width: 700px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.scroll-item img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.item-name {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgba(184, 180, 180, 0.637);
+  text-align: center;
+  border-radius: 10px;
+  color: #333;
+  font-weight: 700;
+  padding: 15px;
+  margin-right: 80px;
+}
+
+.toggle-container:hover {
+  background-color: rgba(146, 142, 142, 0.103);
+}
+
+.toggle-label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: 0.3s;
+  display: inline-block;
+
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+.toggle-input:checked + .toggle-slider {
+  background-color: black;
+}
+
+.toggle-input:checked + .toggle-slider::before {
+  transform: translateX(20px);
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  color: #333;
+  border: 2px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.filter-button:hover {
+  background: #f3f3f3;
+}
+
+.filter-icon {
+  font-size: 18px;
+}
